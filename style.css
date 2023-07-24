@@ -161,6 +161,9 @@ html,body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;    
 }
 
 #page2>h4::after{
@@ -172,5 +175,37 @@ html,body{
     height: 7px;
     background-color: #96FFCA;
     transform: skewY(-16deg);
-    margin: 10px -12px;
+    margin: -3.5px -12px;
+}
+
+#page2>h2{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 10px;    
+}
+
+#page3{
+    height: 50vh;
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+}
+
+#page3>#hand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10%;
+    top: 10%;
+}
+#page3>#logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    top: 50%;
 }
